@@ -5,7 +5,7 @@ import openai
 intents = discord.Intents.default()
 intents.message_content = True
 client = commands.Bot(command_prefix='#', intents=intents)
-openai.api_key = "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" # replace with your API key
+openai.api_key = "OPEN_AI_API_KEY_HERE" # replace with your API key
 
 @client.event
 async def on_ready():
@@ -68,4 +68,4 @@ async def delete_messages(ctx, amount=1):
     await ctx.channel.purge(limit=amount+1)
 
 #Discord BOT AUTH TOKEN
-client.run('MTA2ODM4NjE4MDExNjI1NDc3MQ.GvxV09.dps2zNi-7eX8bs5tbaKboaJ1p8RrO1rffwHzPA')
+client.run('DISCORD_BOT_TOKEN_HERE)
