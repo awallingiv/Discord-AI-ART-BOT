@@ -68,4 +68,4 @@ async def delete_messages(ctx, amount=1):
     await ctx.channel.purge(limit=amount+1)
 
 #Discord BOT AUTH TOKEN
-client.run('DISCORD_BOT_TOKEN_HERE)
+client.run('DISCORD_BOT_TOKEN_HERE')
